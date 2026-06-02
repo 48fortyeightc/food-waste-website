@@ -56,6 +56,13 @@ h1 {
   font-size: 1.18rem;
 }
 
+.author {
+  margin-bottom: 18px;
+  color: #6b5140;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .hero img {
   width: 100%;
   max-height: 520px;
