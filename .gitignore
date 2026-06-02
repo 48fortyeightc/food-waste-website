@@ -1,0 +1,4 @@
+*.zip
+*.pdf
+localtunnel.*.txt
+pagedrop-deploy.json
