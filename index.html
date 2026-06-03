@@ -7,7 +7,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
+  <nav class="top-nav" aria-label="Table of contents">
+    <a href="#top">Home</a>
+    <a href="#contents">Contents</a>
+    <a href="#overview">Overview</a>
+    <a href="#nutrition">Nutrition</a>
+    <a href="#impact">Impact</a>
+    <a href="#solution">Solution</a>
+    <a href="#references">References</a>
+  </nav>
+
+  <header id="top" class="hero">
     <div class="hero-text">
       <p class="course">HFC3M/HFA4U Food & Nutrition</p>
       <h1>Food Waste</h1>
@@ -22,6 +32,31 @@
   </header>
 
   <main>
+    <section id="contents" class="section contents">
+      <div class="section-heading">
+        <span>Table of Contents</span>
+        <h2>Jump to Each Section</h2>
+      </div>
+      <div class="toc-grid">
+        <a href="#overview">
+          <strong>1. Food Issue Overview</strong>
+          <span>What food waste is, who is affected, and why it matters today.</span>
+        </a>
+        <a href="#nutrition">
+          <strong>2. Nutrition and Health Impact</strong>
+          <span>How wasted food connects to nutrients, food choices, and health.</span>
+        </a>
+        <a href="#impact">
+          <strong>3. People, Community, and Environment</strong>
+          <span>How food waste affects families, food banks, and landfills.</span>
+        </a>
+        <a href="#solution">
+          <strong>4. One Realistic Solution</strong>
+          <span>A practical household plan: Plan, Store, Use.</span>
+        </a>
+      </div>
+    </section>
+
     <section id="overview" class="section">
       <div class="section-heading">
         <span>Section 1</span>
@@ -125,6 +160,10 @@
           </p>
         </div>
       </div>
+      <figure class="section-image">
+        <img src="assets/landfill-impact.png" alt="Illustration of wasted food in a landfill and fresh food resources">
+        <figcaption>Food waste affects both the environment and the resources used to grow food.</figcaption>
+      </figure>
       <div class="visual-strip" aria-label="Food waste impact visual">
         <div>
           <strong>Food</strong>
@@ -154,6 +193,10 @@
         This is practical because individuals and families can start doing it
         without waiting for a new law or expensive program.
       </p>
+      <figure class="section-image">
+        <img src="assets/meal-planning.png" alt="Illustration of groceries and meal planning on a kitchen counter">
+        <figcaption>Meal planning helps families buy only what they need and use more fresh food.</figcaption>
+      </figure>
       <div class="steps">
         <div class="step">
           <div class="number">1</div>
